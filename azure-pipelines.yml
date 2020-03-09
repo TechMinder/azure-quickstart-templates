@@ -15,7 +15,7 @@ steps:
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'NetworkWatcherRG'
     location: 'Central US'
-    templateLocation: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-vm-customdata/azuredeploy.json'
+    templateLocation: 'URL of File Path'
     csmFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-vm-customdata/azuredeploy.json'
     csmParametersFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-vm-customdata/azuredeploy.parameters.json'
     deploymentMode: 'Incremental'
