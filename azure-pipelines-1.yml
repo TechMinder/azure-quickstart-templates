@@ -15,10 +15,9 @@ steps:
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'NetworkWatcherRG'
     location: 'Central US'
-    templateLocation: 'Linked artifact'
-    csmFile: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/azuredeploy.json'
-    csmParametersFile: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/azuredeploy.parameters.json'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/azuredeploy.json'
+    csmParametersFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/azuredeploy.parameters.json'
     deploymentMode: 'Complete'
     deploymentName: 'notification-hub'
-
 
