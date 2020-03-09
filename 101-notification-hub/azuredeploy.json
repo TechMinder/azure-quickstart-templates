@@ -17,7 +17,7 @@
         }
     },
     "variables": {
-        "hubName": "MyHub"
+        "hubName": "mynewhubtest"
     },
     "resources": [
         {
