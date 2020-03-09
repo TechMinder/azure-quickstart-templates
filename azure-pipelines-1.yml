@@ -18,6 +18,13 @@ steps:
     templateLocation: 'URL of the file'
     csmFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/azuredeploy.json'
     csmParametersFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/azuredeploy.parameters.json'
+    overrideParameters: |
+      "parameters": {
+              "namespaceName": {
+                  "value": "GEN-UNIQUE"
+              },
+              "location":{"value": "Central US"}
+          }
     deploymentMode: 'Complete'
     deploymentName: 'notification-hub'
 
