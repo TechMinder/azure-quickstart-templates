@@ -4,6 +4,7 @@
     "parameters": {
         "namespaceName": {
             "value": "GEN-UNIQUE"
-        }
+        },
+        "location":{"value": "Center US"}
     }
 }
