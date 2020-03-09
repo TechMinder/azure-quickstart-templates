@@ -1,0 +1,24 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+steps:
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'Visual Studio Ultimate with MSDN(c0b1eeec-66e4-4129-a8a3-40e81eab28e5)'
+    subscriptionId: 'c0b1eeec-66e4-4129-a8a3-40e81eab28e5'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'NetworkWatcherRG'
+    location: 'Central US'
+    templateLocation: 'Linked artifact'
+    csmFile: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/azuredeploy.json'
+    csmParametersFile: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/azuredeploy.parameters.json'
+    deploymentMode: 'Complete'
+    deploymentName: 'notification-hub'
+
+
