@@ -16,8 +16,8 @@ steps:
     resourceGroupName: 'NetworkWatcherRG'
     location: 'Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: '$(System.DefaultWorkingDirectory)\azure-quickstart-templates\blob\master\101-notification-hub\new-deploy.json'
-    csmParametersFileLink: '$(System.DefaultWorkingDirectory)\azure-quickstart-templates\blob\master\101-notification-hub\newdeploy.parameters.json'
+    csmFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/new-deploy.json'
+    csmParametersFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/newdeploy.parameters.json'
     deploymentMode: 'Validation'
     deploymentName: 'notification-hub'
 
