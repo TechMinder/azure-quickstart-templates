@@ -6,18 +6,4 @@
 trigger:
 - master
 
-steps:
 
-- task: AzureResourceManagerTemplateDeployment@3
-  inputs:
-    deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'Visual Studio Ultimate with MSDN(c0b1eeec-66e4-4129-a8a3-40e81eab28e5)'
-    subscriptionId: 'c0b1eeec-66e4-4129-a8a3-40e81eab28e5'
-    action: 'Create Or Update Resource Group'
-    resourceGroupName: 'NetworkWatcherRG'
-    location: 'Central US'
-    templateLocation: 'URL of the file'
-    csmFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-vm-customdata/azuredeploy.json'
-    csmParametersFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-vm-customdata/azuredeploy.parameters.json'
-    deploymentMode: 'Incremental'
-    deploymentName: 'newvm'
