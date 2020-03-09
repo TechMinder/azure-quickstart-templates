@@ -18,6 +18,6 @@ steps:
     templateLocation: 'URL of the file'
     csmFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/new-deploy.json'
     csmParametersFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/newdeploy.parameters.json'
-    deploymentMode: 'Complete'
+    deploymentMode: 'Validation'
     deploymentName: 'notification-hub'
 
