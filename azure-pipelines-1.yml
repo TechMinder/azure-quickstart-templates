@@ -16,15 +16,8 @@ steps:
     resourceGroupName: 'NetworkWatcherRG'
     location: 'Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/azuredeploy.json'
-    csmParametersFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/azuredeploy.parameters.json'
-    overrideParameters: |
-      "parameters": {
-              "namespaceName": {
-                  "value": "GEN-UNIQUE"
-              },
-              "location":{"value": "Central US"}
-          }
+    csmFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/new-deploy.json'
+    csmParametersFileLink: 'https://github.com/TechMinder/azure-quickstart-templates/blob/master/101-notification-hub/newdeploy.parameters.json'
     deploymentMode: 'Complete'
     deploymentName: 'notification-hub'
 
