@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "namespaceLocation": {
+            "value": "centralindia"
+        },
+        "namespaceName": {
+            "value": "mynewhubtest1"
+        },
+        "notificationHubName": {
+            "value": "mynewhubtest"
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "tags": {
+            "value": {
+                "createdby": "hitesh",
+                "purpose": "testing"
+            }
+        }
+    }
+}
